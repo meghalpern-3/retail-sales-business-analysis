@@ -42,20 +42,29 @@ The first chart shows the number of orders each month. The second shows average 
 
 ## How to run it
 
-Run the SQL analysis:
+
+## How to run it
+
+First, run the SQL analysis:
 
 ```bash
 python3 analyze.py
 ```
 
-Run the dashboard:
+Install Matplotlib if you don't already have it:
 
 ```bash
 python3 -m pip install matplotlib
+```
+
+Then create the dashboard:
+
+```bash
 python3 business_dashboard.py
 ```
 
 The SQL results are saved as CSV files in the `outputs` folder, along with the dashboard image.
+
 
 ## About the data
 
