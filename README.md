@@ -42,9 +42,6 @@ The first chart shows the number of orders each month. The second shows average 
 
 ## How to run it
 
-
-## How to run it
-
 First, run the SQL analysis:
 
 ```bash
